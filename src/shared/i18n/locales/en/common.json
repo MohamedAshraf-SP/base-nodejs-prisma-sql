@@ -1,0 +1,14 @@
+{
+  "created": "{{resource}} created successfully",
+  "updated": "{{resource}} updated successfully",
+  "deleted": "{{resource}} deleted successfully",
+  "notFound": "{{resource}} not found",
+  "conflict": "{{resource}} with {{field}} '{{value}}' already exists",
+  "badRequest": "Bad request",
+  "unauthorized": "Unauthorized",
+  "forbidden": "Forbidden",
+  "internalError": "Internal server error",
+  "validationFailed": "Validation failed",
+  "passwordChanged": "Password changed successfully",
+  "emailSent": "Verification email sent to {{email}}"
+}

@@ -1,0 +1,27 @@
+// ============================================
+// Prisma Schema - Base Configuration
+// ============================================
+// After changes:  npm run db:migrate
+// To explore DB:  npm run db:studio
+//
+// ============================================
+// Base Fields (required in ALL models)
+// ============================================
+// Copy these fields into every new model:
+//
+//   id        String    @id @default(uuid())
+//   createdAt DateTime  @default(now()) @map("created_at")
+//   updatedAt DateTime  @updatedAt @map("updated_at")
+//   deletedAt DateTime? @map("deleted_at")
+//
+// Note: Prisma does not support model inheritance.
+// These fields must be added manually to each model.
+// deletedAt enables soft deletes — add it to models that use { softDelete: true }.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}

@@ -1,0 +1,14 @@
+{
+  "created": "تم إنشاء {{resource}} بنجاح",
+  "updated": "تم تحديث {{resource}} بنجاح",
+  "deleted": "تم حذف {{resource}} بنجاح",
+  "notFound": "{{resource}} غير موجود",
+  "conflict": "{{resource}} بـ{{field}} '{{value}}' موجود مسبقاً",
+  "badRequest": "طلب غير صالح",
+  "unauthorized": "غير مصرح",
+  "forbidden": "ممنوع",
+  "internalError": "خطأ داخلي في الخادم",
+  "validationFailed": "فشل التحقق من البيانات",
+  "passwordChanged": "تم تغيير كلمة المرور بنجاح",
+  "emailSent": "تم إرسال بريد التحقق إلى {{email}}"
+}

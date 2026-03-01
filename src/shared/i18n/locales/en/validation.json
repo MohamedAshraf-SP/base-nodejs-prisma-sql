@@ -1,0 +1,11 @@
+{
+  "required": "{{field}} is required",
+  "invalid_type": "{{field}} must be a {{expected}}",
+  "too_small": "{{field}} must be at least {{minimum}} characters",
+  "too_big": "{{field}} must be at most {{maximum}} characters",
+  "invalid_string": "{{field}} is invalid",
+  "invalid_email": "{{field}} must be a valid email address",
+  "invalid_url": "{{field}} must be a valid URL",
+  "invalid_enum_value": "{{field}} must be one of: {{options}}",
+  "custom": "{{field}} is invalid"
+}

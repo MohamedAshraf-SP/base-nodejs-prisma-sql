@@ -1,0 +1,11 @@
+{
+  "required": "{{field}} مطلوب",
+  "invalid_type": "يجب أن يكون {{field}} من نوع {{expected}}",
+  "too_small": "يجب أن يحتوي {{field}} على {{minimum}} أحرف على الأقل",
+  "too_big": "يجب ألا يتجاوز {{field}} {{maximum}} حرفاً",
+  "invalid_string": "{{field}} غير صالح",
+  "invalid_email": "يجب أن يكون {{field}} بريداً إلكترونياً صالحاً",
+  "invalid_url": "يجب أن يكون {{field}} رابطاً صالحاً",
+  "invalid_enum_value": "يجب أن يكون {{field}} أحد القيم التالية: {{options}}",
+  "custom": "{{field}} غير صالح"
+}
