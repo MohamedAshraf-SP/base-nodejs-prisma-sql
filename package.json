@@ -1,0 +1,36 @@
+{
+  "name": "service-platform",
+  "version": "1.0.0",
+  "description": "Scalable service-based Node.js platform",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "db:generate": "prisma generate --schema=prisma/models",
+    "db:migrate": "prisma migrate dev --schema=prisma/models",
+    "db:push": "prisma db push --schema=prisma/models",
+    "db:studio": "prisma studio --schema=prisma/models",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.1",
+    "@prisma/client": "^7.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "helmet": "^8.0.0",
+    "pg": "^8.19.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.16.0",
+    "prisma": "^7.4.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
